@@ -20,3 +20,14 @@ def imprime_nomes3():
     print("3 - " + nomes[2])
 
 imprime_nomes3()
+
+def imprime_listadealimentos():
+    array_inicial = ["Macarrão", "Pepino", "Batata"]
+    array_inicial[0] = str(input("Digite um alimento: "))
+    array_inicial[1] = str(input("Digite outro alimento: "))
+    array_inicial[2] = str(input("Digite outro alimento: "))
+    print("1 - " + array_inicial[0])
+    print("2 - " + array_inicial[1])
+    print("3 - " + array_inicial[2])
+
+imprime_listadealimentos()
