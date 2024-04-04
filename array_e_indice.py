@@ -3,21 +3,21 @@ def imprime_nomes():
     print("1 - " + nomes[0])
     print("2 - " + nomes[1])
     print("3 - " + nomes[2])
-    print("4 - " + nomes[3])
+    print("4 - " + nomes[3] + "\n")
 
 imprime_nomes()
 
 def imprime_nomes2():
     nomes = ["João", "Maria", "Fulano", "Beltrano"]
     print("1 - " + nomes[0])
-    print("4 - " + nomes[3])
+    print("4 - " + nomes[3] + "\n")
 
 imprime_nomes2()
 
 def imprime_nomes3():
     nomes = ["João", "Maria", "Fulano", "Beltrano"]
     print("2 - " + nomes[1])
-    print("3 - " + nomes[2])
+    print("3 - " + nomes[2] + "\n")
 
 imprime_nomes3()
 
