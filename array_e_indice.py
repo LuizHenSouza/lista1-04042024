@@ -21,11 +21,15 @@ def imprime_nomes3():
 
 imprime_nomes3()
 
-def imprime_listadealimentos():
+valor1 = str(input("Digite um alimento: "))
+valor2 = str(input("Digite outro alimento: "))
+valor3 = str(input("Digite outro alimento: "))
+
+def imprime_listadealimentos(valor1, valor2, valor3):
     array_inicial = ["Macarrão", "Pepino", "Batata"]
-    array_inicial[0] = str(input("Digite um alimento: "))
-    array_inicial[1] = str(input("Digite outro alimento: "))
-    array_inicial[2] = str(input("Digite outro alimento: "))
+    array_inicial[0] = valor1
+    array_inicial[1] = valor2
+    array_inicial[2] = valor3
     print("1 - " + array_inicial[0])
     print("2 - " + array_inicial[1])
     print("3 - " + array_inicial[2])
