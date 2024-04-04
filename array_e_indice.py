@@ -13,3 +13,10 @@ def imprime_nomes2():
     print("4 - " + nomes[3])
 
 imprime_nomes2()
+
+def imprime_nomes3():
+    nomes = ["João", "Maria", "Fulano", "Beltrano"]
+    print("2 - " + nomes[1])
+    print("3 - " + nomes[2])
+
+imprime_nomes3()
